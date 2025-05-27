@@ -3,7 +3,7 @@
     "name": "Giuseppe Santoro",
     "label": "Senior Software Engineer",
     "email": "giuseppe.santoro@gmail.com",
-    "summary": "Senior Software Engineer with over 12 years of experience developing and operating high-scale distributed systems in production. Expertise in the complete software lifecycle from code development to service deployment, focusing on cloud-native architectures, Kubernetes orchestration, and observability solutions.",
+    "summary": "Senior Software Engineer with 12+ years developing high-scale distributed systems. Expert in full software lifecycle from code to production, specializing in cloud-native architectures, Kubernetes, and observability solutions. Proven track record supporting critical product launches at Elastic and PlayStation, with expertise spanning from Kubernetes development to high-performance analytics tools serving millions of users.",
     "profiles": [
       {
         "network": "GitHub",
@@ -22,7 +22,7 @@
       },
       {
         "network": "Substack",
-        "username": "Cloud Native Engineer (Substack)",
+        "username": "Cloud Native Engineer (Substack Newsletter)",
         "url": "https://cloudnativeengineer.substack.com"
       }
     ]
@@ -34,11 +34,11 @@
       "website": "https://www.elastic.co/",
       "startDate": "2024-05",
       "endDate": "2025-03",
-      "team": "Platform - Engineering Productivity Team",
+      "team": "Platform org - Developer Experience Team",
       "highlights": [
-        "I contributed to the global launch of Elastic Cloud Serverless by developing a synthetic monitoring framework using Playwright to test APIs and external web services. This initiative resulted in more frequent and comprehensive integration tests, which reduced production outages and improved the performance of external products. Additionally, I facilitated the adoption of this framework among more than eight engineering teams by streamlining the onboarding process and enhancing automation.",
-        "Resolved internal and external incidents as Incident Commander and first responder, improving external product experience for Elastic Synthetic monitoring while delivering thorough root cause analyses that prevented recurring issues.",
-        "Enhanced security posture by helping implementing a company-wide dependency management through Renovate, ensuring consistent and up-to-date software dependencies across the organization's codebase."
+        "Developed synthetic monitoring framework using Playwright for Elastic Cloud Serverless launch, reducing production outages across 8+ engineering teams.",
+        "Served as Incident Commander resolving internal/external incidents while improving Elastic Synthetic monitoring product experience.",
+        "Implemented company-wide dependency management through Renovate, ensuring consistent software dependencies across codebases."
       ]
     },
     {
@@ -47,13 +47,12 @@
       "website": "",
       "startDate": "2022-03",
       "endDate": "2024-05",
-      "team": "Observability - Cloud Native Team",
+      "team": "Observability org - Cloud Native Team",
       "highlights": [
-        "Streamlined troubleshooting processes by engineering a remote debugging solution for Elastic Beats running on Kubernetes using Go Delve Debugger and Tilt.",
-        "Expanded observability capabilities by developing a custom Elastic integration for Istio logs and metrics, enabling customers to effectively monitor service mesh performance.",
-        "Enhanced user experience by creating and maintaining specialized dashboards for the Elastic Kubernetes integration, improving visibility into cluster metrics.",
-        "Resolved complex customer support escalations related to Elastic Beats and Elastic Agents running on Kubernetes while contributing critical bug fixes and features to Elastic codebases.",
-        "I served as one of the two technical reviewers for the book Elastic Stack 8.x Cookbook"
+        "Built remote debugging solution for Elastic Beats on Kubernetes using Go Delve Debugger and Tilt.",
+        "Developed custom Elastic integration for Istio logs and metrics, enabling service mesh performance monitoring.",
+        "Created specialized dashboards for Elastic Kubernetes integration improving cluster visibility.",
+        "Resolved complex customer escalations for Kubernetes deployments while contributing bug fixes to Elastic codebases."
       ]
     },
     {
@@ -64,11 +63,11 @@
       "endDate": "2021-08",
       "team": "Game Analytics Team",
       "highlights": [
-        "Developed a high-performance data analytics optimization tool in Golang that transformed query performance from minutes to seconds, efficiently processing multi-month datasets using AWS S3, Athena, SQL, and Glue.",
-        "Built a real-time event processor using AWS Lambda and Python that enhanced data analysis capabilities by providing ID mapping for improved data correlation and insights.",
-        "Delivered end-to-end support for 10+ PlayStation game launches as a full-stack engineer, handling everything from application development to infrastructure optimization using AWS EMR, Lambda, and Kinesis.",
-        "Created a video transcoding tool in Python that accelerated media content discovery for Studio Engineers, demonstrating versatility across different technical domains.",
-        "Operated as a multi-disciplinary engineer maintaining reliable operations of complex infrastructure including 10+ microservices, 20+ EMR jobs, and 5+ Lambda functions in a small team environment."
+        "Built high-performance Golang analytics tool transforming query performance from minutes to seconds using AWS S3, Athena, and Glue.",
+        "Developed real-time event processor using AWS Lambda and Python for enhanced data correlation and insights.",
+        "Delivered end-to-end support for 10+ PlayStation game launches handling application development to AWS infrastructure.",
+        "Created Python video transcoding tool accelerating media content discovery for Studio Engineers.",
+        "Maintained reliable operations of 10+ microservices, 20+ EMR jobs, and 5+ Lambda functions in small team environment."
       ]
     },
     {
@@ -79,9 +78,9 @@
       "endDate": "2018-08",
       "team": "Platform Team",
       "highlights": [
-        "Accelerated pipeline runtime using Google Dataflow to ingest 120M documents into Elasticsearch.",
-        "Improved query performance by migrating data pipeline from on-premise Hadoop to Google BigQuery while delivering substantial cost savings.",
-        "Automated data pipeline through Airflow orchestration on Kubernetes improving operational visibility."
+        "Optimized pipeline runtime using Google Dataflow to ingest 120M documents into Elasticsearch.",
+        "Migrated data pipeline from on-premise Hadoop to Google BigQuery improving query performance and cost efficiency.",
+        "Automated pipeline scheduling through Airflow on Kubernetes improving operational visibility."
       ]
     },
     {
@@ -92,9 +91,9 @@
       "endDate": "2017-02",
       "team": "Platform Team",
       "highlights": [
-        "Reduced the ingestion time of 40 million scientific publications into ElasticSearch by ~8x (from 24 to 3 hours) by optimizing Elasticsearch performance, implementing multi-threading via a Spark Job, and eliminating disk bottlenecks through S3 storage, enabling multiple daily pipeline iterations.",
-        "Automated the scheduling of the data pipeline by writing multiple Airflow jobs in Python.",
-        "Contributed and maintained various apps running on Apache Mesos and Marathon (earlier alternatives to Kubernetes)."
+        "Optimized Elasticsearch ingestion of 40M scientific publications by 8x (24 to 3 hours) using Spark multi-threading and S3 storage.",
+        "Automated pipeline scheduling using Python Airflow jobs.",
+        "Developed and maintained applications on Apache Mesos and Marathon (Kubernetes predecessors)."
       ]
     },
     {
@@ -105,9 +104,9 @@
       "endDate": "2015-07",
       "team": "Training & Consulting",
       "highlights": [
-        "Delivered the official Hortonworks Hadoop course at Hadoop Summit for 2 consecutive years, while also conducting 5+ private corporate training courses across Europe with 90% positive feedback from participants.",
-        "Led team of 3 engineers in 4-month greenfield consulting project, implementing complete solution for major client while balancing training responsibilities.",
-        "Demonstrated accelerated learning capability by achieving high certification scores within months on various developer and administrator exams."
+        "Delivered official Hortonworks Hadoop course at Hadoop Summit for 2 years plus 5+ private corporate courses with 90% positive feedback.",
+        "Led 3-engineer team in 4-month greenfield consulting project implementing complete client solution.",
+        "Achieved high certification scores on developer and administrator exams within months of self-study."
       ]
     }
   ],
@@ -116,7 +115,8 @@
       "name": "Programming",
       "keywords": [
         "Golang (6 years)",
-        "Python (10 years)"
+        "Python (10 years)",
+        "Bash"
       ]
     },
     {
@@ -133,18 +133,8 @@
         "Elastic Cloud on Kubernetes (ECK)",
         "Elastic Agent",
         "Elastic Beats",
-        "Kibana (dashboards, synthetics monitoring and alerting)",
+        "Kibana",
         "Elastic Integration Development"
-      ]
-    },
-    {
-      "name": "DevOps & Tools",
-      "keywords": [
-        "Docker",
-        "Terraform",
-        "Renovate",
-        "Bash scripting",
-        "Linux"
       ]
     }
   ],
@@ -154,7 +144,7 @@
       "issuer": "Linux Foundation",
       "startDate": "2023",
       "endDate": "2025",
-      "description": "Comprehensive certification demonstrating expertise in deploying, managing, and troubleshooting Kubernetes clusters in production environments."
+      "description": "Demonstrated expertise in both development and administration of Kubernetes clusters, including application deployment, and production troubleshooting."
     }
   ],
   "education": [
@@ -182,7 +172,7 @@
       "website": "https://cloudnativeengineer.substack.com",
       "startDate": "2023-06",
       "highlights": [
-        "Built a substantial audience of over 2,300 subscribers by creating in-depth technical content on cloud-native technologies, including Kubernetes, Elasticsearch, and DevOps, while maintaining consistent engagement with 4.7K monthly views."
+        "Built 2,300+ subscriber audience creating cloud-native technical content with 4.7K monthly views."
       ]
     },
     {
@@ -190,9 +180,7 @@
       "organization": "Independent Consulting",
       "startDate": "2023-06",
       "highlights": [
-        "Advised executive leaders (CTOs and CEOs from various startups) on critical system design decisions.",
-        "Consistently prepared senior software engineers for technical and behavioral interviews at top technology companies.",
-        "Achieved perfect 5-star ratings across more than 10 reviews."
+        "Advised CTOs and CEOs on system design decisions and prepared senior engineers for technical interviews achieving a perfect 5-star ratings across 10+ reviews."
       ]
     },
     {
@@ -201,7 +189,7 @@
       "startDate": "2023-01",
       "endDate": "2023-06",
       "highlights": [
-        "Served as one of two technical reviewers for the book 'Elastic Stack 8.x Cookbook', ensuring accuracy and quality of both code examples and technical content for publication."
+        "Technical reviewer for 'Elastic Stack 8.x Cookbook' ensuring code and content accuracy."
       ]
     }
   ],

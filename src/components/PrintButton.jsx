@@ -5,7 +5,7 @@ export default function PrintButton() {
   const optionsRef = useRef(null);
   
   const handlePrint = () => {
-    alert('For best results, please set your print zoom to 65% before printing.');
+    alert('For best results, please set your print zoom to 63% before printing.');
     
     setTimeout(() => {
       window.print();

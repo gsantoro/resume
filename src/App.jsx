@@ -75,11 +75,11 @@ function App() {
       
       <PrintButton />
       
-      <header className="mb-8 pb-4 print:mb-8">
+      <header className="mb-4 pb-4 print:mb-4">
         <h1 className="text-5xl font-bold dark:text-gray print:text-gray! print:text-black!">{resume.basics.name}</h1>
         <h2 className="text-3xl text-gray-500 dark:text-gray-400 font-semibold print:text-gray-500!">{resume.basics.label}</h2>
 
-        <div className="grid md:grid-cols-3 gap-8 mt-4 print:grid-cols-3 print:gap-4">
+        <div className="grid md:grid-cols-3 gap-8 mt-4 print:grid-cols-3 print:gap-8">
           <aside className="md:col-span-1 space-y-6 print:col-span-1 print:space-y-3 print:break-inside-avoid">
             <Contact basics={resume.basics} />
           </aside>

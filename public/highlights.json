@@ -4,17 +4,27 @@
       "highlights": {
         "0": [
           {
-            "text": "synthetic monitoring framework using Playwright",
+            "text": "Playwright",
             "type": "technology"
           },
           {
-            "text": "reduced production outages",
+            "text": "reducing production outages across 8+ engineering teams",
             "type": "impact"
           }
         ],
         "1": [
           {
             "text": "Elastic Synthetic monitoring",
+            "type": "technology"
+          },
+          {
+            "text": "Incident Commander",
+            "type": "impact"
+          }
+        ],
+        "2": [
+          {
+            "text": "Renovate",
             "type": "technology"
           }
         ]
@@ -32,6 +42,136 @@
           {
             "text": "custom Elastic integration for Istio",
             "type": "technology"
+          }
+        ],
+        "2": [
+          {
+            "text": "Elastic Kubernetes integration",
+            "type": "technology"
+          }
+        ],
+        "3": [
+          {
+            "text": "complex customer escalations",
+            "type": "impact"
+          }
+        ]
+      }
+    },
+    "2": {
+      "highlights": {
+        "0": [
+          {
+            "text": "AWS S3, Athena, and Glue",
+            "type": "technology"
+          },
+          {
+            "text": "query performance from minutes to second",
+            "type": "impact"
+          }
+        ],
+        "1": [
+          {
+            "text": "AWS Lambda and Python",
+            "type": "technology"
+          }
+        ],
+        "2": [
+          {
+            "text": "10+ PlayStation game launches",
+            "type": "impact"
+          }
+        ],
+        "4": [
+          {
+            "text": "EMR",
+            "type": "technology"
+          },
+          {
+            "text": "Lambda",
+            "type": "technology"
+          }
+        ]
+      }
+    },
+    "3": {
+      "highlights": {
+        "0": [
+          {
+            "text": "Google Dataflow",
+            "type": "technology"
+          },
+          {
+            "text": "Elasticsearch",
+            "type": "technology"
+          },
+          {
+            "text": "120M documents",
+            "type": "impact"
+          }
+        ],
+        "1": [
+          {
+            "text": "Google BigQuery",
+            "type": "technology"
+          },
+          {
+            "text": "query performance and cost efficiency",
+            "type": "impact"
+          }
+        ],
+        "2": [
+          {
+            "text": "Airflow",
+            "type": "technology"
+          },
+          {
+            "text": "Kubernetes",
+            "type": "technology"
+          }
+        ]
+      }
+    },
+    "4": {
+      "highlights": {
+        "0": [
+          {
+            "text": "Elasticsearch",
+            "type": "technology"
+          },
+          {
+            "text": "Spark",
+            "type": "technology"
+          },
+          {
+            "text": "S3",
+            "type": "technology"
+          },
+          {
+            "text": "40M scientific publications by 8x (24 to 3 hours)",
+            "type": "impact"
+          }
+        ],
+        "2": [
+          {
+            "text": "Apache Mesos and Marathon",
+            "type": "technology"
+          }
+        ]
+      }
+    },
+    "5": {
+      "highlights": {
+        "0": [
+          {
+            "text": "Hadoop Summit for 2 years plus 5+ private corporate courses",
+            "type": "impact"
+          }
+        ],
+        "1": [
+          {
+            "text": "3-engineer team",
+            "type": "impact"
           }
         ]
       }
