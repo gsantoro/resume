@@ -7,7 +7,7 @@
     "profiles": [
       {
         "network": "GitHub",
-        "username": "gsantoro",
+        "username": "gsantoro (GitHub)",
         "url": "https://github.com/gsantoro"
       },
       {
@@ -16,24 +16,14 @@
         "url": "https://linkedin.com/in/santorogiuseppe"
       },
       {
-        "network": "Substack",
-        "username": "Cloud Native Engineer",
-        "url": "https://cloudnativeengineer.substack.com"
-      },
-      {
-        "network": "Substack",
-        "username": "Cloud Native Creator",
-        "url": "https://cloudnativecreator.substack.com"
-      },
-      {
-        "network": "Playstation",
-        "username": "Playstation launched games",
-        "url": "https://www.mobygames.com/person/1021019/giuseppe-santoro/"
-      },
-      {
         "network": "LeetCode",
-        "username": "gsantoro",
+        "username": "gsantoro (Leetcode)",
         "url": "https://leetcode.com/gsantoro"
+      },
+      {
+        "network": "Substack",
+        "username": "Cloud Native Engineer (Substack)",
+        "url": "https://cloudnativeengineer.substack.com"
       }
     ]
   },
@@ -46,9 +36,9 @@
       "endDate": "2025-03",
       "team": "Platform - Engineering Productivity Team",
       "highlights": [
-        "Significantly reduced infrastructure incidents by designing and implementing an internal framework to use Elastic Synthetic monitoring, driving adoption across 8+ engineering teams for monitoring business-critical internal services.",
-        "Enhanced security posture by implementing company-wide dependency management through Renovate, ensuring consistent and up-to-date software dependencies across the organization's codebase.",
-        "Improved incident response time as an active member of the production incident team, providing on-call support while delivering thorough root cause analyses that prevented recurring issues."
+        "I contributed to the global launch of Elastic Cloud Serverless by developing a synthetic monitoring framework using Playwright to test APIs and external web services. This initiative resulted in more frequent and comprehensive integration tests, which reduced production outages and improved the performance of external products. Additionally, I facilitated the adoption of this framework among more than eight engineering teams by streamlining the onboarding process and enhancing automation.",
+        "Resolved internal and external incidents as Incident Commander and first responder, improving external product experience for Elastic Synthetic monitoring while delivering thorough root cause analyses that prevented recurring issues.",
+        "Enhanced security posture by helping implementing a company-wide dependency management through Renovate, ensuring consistent and up-to-date software dependencies across the organization's codebase."
       ]
     },
     {
@@ -59,12 +49,11 @@
       "endDate": "2024-05",
       "team": "Observability - Cloud Native Team",
       "highlights": [
-        "Expanded observability capabilities by developing a custom Elastic integration for Istio logs and metrics, enabling customers to effectively monitor service mesh performance.",
         "Streamlined troubleshooting processes by engineering a remote debugging solution for Elastic Beats running on Kubernetes using Go Delve Debugger and Tilt.",
+        "Expanded observability capabilities by developing a custom Elastic integration for Istio logs and metrics, enabling customers to effectively monitor service mesh performance.",
         "Enhanced user experience by creating and maintaining specialized dashboards for the Elastic Kubernetes integration, improving visibility into cluster metrics.",
-        "Resolved complex customer escalations related to Kubernetes implementations while contributing critical bug fixes and features to Elastic Agent and Beats codebases.",
-        "Improved hiring quality by conducting technical interviews across multiple engineering positions, evaluating candidates' skills and team fit.",
-        "Technical reviewer of the book Elastic Stack 8.x Cookbook."
+        "Resolved complex customer support escalations related to Elastic Beats and Elastic Agents running on Kubernetes while contributing critical bug fixes and features to Elastic codebases.",
+        "I served as one of the two technical reviewers for the book Elastic Stack 8.x Cookbook"
       ]
     },
     {
@@ -131,17 +120,16 @@
     {
       "name": "Programming",
       "keywords": [
-        "Python",
-        "Golang",
-        "SQL"
+        "Golang (6 years)",
+        "Python (10 years)"
       ]
     },
     {
       "name": "Cloud & Infrastructure",
       "keywords": [
-        "AWS (Lambda, Kinesis, EMR, S3, Glue, Athena)",
-        "GCP (Dataflow, BigQuery)",
-        "Kubernetes"
+        "Kubernetes (3+ years)",
+        "AWS (Lambda, Kinesis, EMR, S3, ECS, Glue, Athena)",
+        "GCP (Dataflow, BigQuery)"
       ]
     },
     {
@@ -149,9 +137,9 @@
       "keywords": [
         "Elastic Cloud on Kubernetes (ECK)",
         "Elastic Agent",
-        "Beats",
-        "Kibana",
-        "Integration Development"
+        "Elastic Beats",
+        "Kibana (dashboards, synthetics monitoring and alerting)",
+        "Elastic Integration Development"
       ]
     },
     {
@@ -161,7 +149,8 @@
         "Terraform",
         "Ansible",
         "Renovate",
-        "Bash scripting"
+        "Bash scripting",
+        "Linux"
       ]
     }
   ],
@@ -181,7 +170,7 @@
       "studyType": "Master's",
       "startDate": "2006",
       "endDate": "2012",
-      "gpa": "Graduated with honors"
+      "gpa": "110/110 cum laude (Graduated with honors)"
     },
     {
       "institution": "University of Palermo",
@@ -189,7 +178,39 @@
       "studyType": "Bachelor's",
       "startDate": "2002",
       "endDate": "2006",
-      "gpa": "Graduated with honors"
+      "gpa": "110/110 cum laude (Graduated with honors)"
+    }
+  ],
+  "extras": [
+    {
+      "role": "Technical Writer",
+      "organization": "Cloud Native Engineer Newsletter",
+      "website": "https://cloudnativeengineer.substack.com",
+      "startDate": "2023-06",
+      "highlights": [
+        "Built substantial audience of 2,000+ subscribers by creating in-depth technical content on cloud-native technologies, maintaining consistent engagement with 4.7K monthly views.",
+        "Established premium content subscription model, successfully converting readers to paid subscribers through specialized material on Kubernetes, Elasticsearch, and DevOps.",
+        "Helped fellow engineers solve common challenges by sharing practical guides and real-world solutions based on hands-on experience with cloud-native technologies."
+      ]
+    },
+    {
+      "role": "Technical Mentor",
+      "organization": "Independent Consulting",
+      "startDate": "2023-06",
+      "highlights": [
+        "Guided executive leadership on critical technical architecture decisions, resulting in successful Elasticsearch implementations and optimized system designs with measurable performance improvements.",
+        "Accelerated career progression for senior engineers through targeted mentorship on cloud-native technologies, system design, and professional development strategies.",
+        "Consistently prepared senior engineers for successful technical and behavioral interviews at leading technology companies, earning perfect 5-star ratings across multiple reviews."
+      ]
+    },
+    {
+      "role": "Technical Reviewer",
+      "organization": "Packt Publishing",
+      "startDate": "2023-01",
+      "endDate": "2023-06",
+      "highlights": [
+        "Served as one of two technical reviewers for 'Elastic Stack 8.x Cookbook', ensuring accuracy and quality of advanced Elasticsearch content for publication."
+      ]
     }
   ],
   "languages": [
@@ -199,7 +220,7 @@
     },
     {
       "language": "English",
-      "fluency": "Professional"
+      "fluency": "Bilingual proficiency"
     }
   ]
 }

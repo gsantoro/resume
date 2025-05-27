@@ -1,0 +1,40 @@
+{
+  "work": {
+    "0": {
+      "highlights": {
+        "0": [
+          {
+            "text": "synthetic monitoring framework using Playwright",
+            "type": "technology"
+          },
+          {
+            "text": "reduced production outages",
+            "type": "impact"
+          }
+        ],
+        "1": [
+          {
+            "text": "Elastic Synthetic monitoring",
+            "type": "technology"
+          }
+        ]
+      }
+    },
+    "1": {
+      "highlights": {
+        "0": [
+          {
+            "text": "Go Delve Debugger and Tilt",
+            "type": "technology"
+          }
+        ],
+        "1": [
+          {
+            "text": "custom Elastic integration for Istio",
+            "type": "technology"
+          }
+        ]
+      }
+    }
+  }
+}

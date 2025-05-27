@@ -5,6 +5,7 @@ import Skills from "./components/Skills";
 import Education from "./components/Education";
 import Languages from "./components/Languages";
 import Certification from "./components/Certification";
+import Extras from "./components/Extras";
 import Summary from "./components/Summary";
 import ThemeToggle from "./components/ThemeToggle";
 import PrintButton from "./components/PrintButton";
@@ -90,8 +91,9 @@ function App() {
       <main className="space-y-8 print:space-y-4">
         <Skills skills={resume.skills} />
         <Experience work={resume.work} />
-        <Education education={resume.education} />
         <Certification certificates={resume.certificates} />
+        <Extras extras={resume.extras} />
+        <Education education={resume.education} />
         <Languages languages={resume.languages} />
       </main>
       <footer className="py-6 mt-8 print:hidden"></footer>

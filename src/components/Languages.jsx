@@ -2,6 +2,10 @@ import React from 'react';
 import HeaderWithLine from './HeaderWithLine';
 
 export default function Languages({ languages }) {
+    if (!languages || languages.length === 0) {
+      return null;
+    }
+
     return (
       <section>
         <HeaderWithLine title="Languages" />
