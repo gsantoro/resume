@@ -3,7 +3,7 @@
     "name": "Giuseppe Santoro",
     "label": "Senior Software Engineer",
     "email": "giuseppe.santoro@gmail.com",
-    "summary": "Senior Software Engineer with over 12 years of experience in platform engineering, cloud-native technologies, and observability. Expertise in building infrastructure for millions of users at PlayStation and Elastic, focusing on high-performance distributed systems and data pipelines using Kubernetes, AWS, and GCP. CKA-certified with a proven ability to optimize systems, achieving significant reductions in query times and pipeline runtimes. Strong communicator and technical writer, mentoring teams in adopting cloud-native architectures.",
+    "summary": "Senior Software Engineer with over 12 years of experience developing and operating high-scale distributed systems in production. Expertise in the complete software lifecycle from code development to service deployment, focusing on cloud-native architectures, Kubernetes orchestration, and observability solutions.",
     "profiles": [
       {
         "network": "GitHub",
@@ -64,12 +64,11 @@
       "endDate": "2021-08",
       "team": "Game Analytics Team",
       "highlights": [
-        "Transformed query performance from hours to seconds by building a data analytics optimization tool in Golang that efficiently processed multi-month datasets using AWS S3, Athena, and Glue.",
-        "Enhanced data analysis capabilities by developing a real-time event processor with Python and AWS Lambda that improved ID mapping for better data correlation and insights.",
-        "Optimized infrastructure spend while supporting 10+ PlayStation game launches through strategic capacity planning and resource optimization using AWS EMR, Lambda, and Kinesis.",
-        "Eliminated critical incidents by leading a comprehensive pipeline refactoring project using Golang, Python, and AWS services, significantly improving system reliability.",
-        "Accelerated media content discovery by creating a video search and transcoding tool for Studio Engineers using Python, improving cross-team collaboration.",
-        "Maintained reliable operations of complex infrastructure including 10+ microservices, 20+ EMR jobs, and 5+ Lambda functions using Terraform and Ansible."
+        "Developed a high-performance data analytics optimization tool in Golang that transformed query performance from minutes to seconds, efficiently processing multi-month datasets using AWS S3, Athena, SQL, and Glue.",
+        "Built a real-time event processor using AWS Lambda and Python that enhanced data analysis capabilities by providing ID mapping for improved data correlation and insights.",
+        "Delivered end-to-end support for 10+ PlayStation game launches as a full-stack engineer, handling everything from application development to infrastructure optimization using AWS EMR, Lambda, and Kinesis.",
+        "Created a video transcoding tool in Python that accelerated media content discovery for Studio Engineers, demonstrating versatility across different technical domains.",
+        "Operated as a multi-disciplinary engineer maintaining reliable operations of complex infrastructure including 10+ microservices, 20+ EMR jobs, and 5+ Lambda functions in a small team environment."
       ]
     },
     {
@@ -80,39 +79,35 @@
       "endDate": "2018-08",
       "team": "Platform Team",
       "highlights": [
-        "Dramatically accelerated pipeline runtime using Google Dataflow to efficiently ingest 120M documents into Elasticsearch, completing tasks in a fraction of the previous time.",
-        "Delivered substantial cost savings by migrating data pipeline from on-premise Hadoop to Google BigQuery while simultaneously improving overall query performance.",
-        "Eliminated manual intervention through Airflow orchestration on Kubernetes, automating pipeline scheduling and monitoring while reducing operational overhead."
+        "Accelerated pipeline runtime using Google Dataflow to ingest 120M documents into Elasticsearch.",
+        "Improved query performance by migrating data pipeline from on-premise Hadoop to Google BigQuery while delivering substantial cost savings.",
+        "Automated data pipeline through Airflow orchestration on Kubernetes improving operational visibility."
       ]
     },
     {
       "company": "BenevolentAI (formerly Stratified Medical)",
-      "position": "Big Data Software Engineer",
+      "position": "Software Engineer",
       "website": "https://www.benevolent.com",
       "startDate": "2015-07",
       "endDate": "2017-02",
       "team": "Platform Team",
       "highlights": [
-        "Reduced the ingestion time of 40 million scientific publications into ElasticSearch by ~8x (from 24 to 3 hours) by rewriting one of the steps of the data pipeline (Spark, Hadoop cluster on AWS).",
-        "Deployed, configured and maintained a variety of Hadoop, ElasticSearch and Cassandra clusters either bare-metal on-premise or on cloud (Python, Ansible, Amazon AWS)",
-        "Contributed to the migration of the batch data pipeline from a bare-metal Hadoop cluster to an Amazon EMR cluster by rewriting a Map/Reduce job that was written in Java into a Spark job written in Scala",
-        "Automated the scheduling of the data pipeline by writing multiple Airflow jobs (Python)",
-        "Improved the data pipeline alerting capabilities (Python and Bash scripting)",
-        "Contributed and maintained various apps running on Mesos and Marathon as Docker containers"
+        "Reduced the ingestion time of 40 million scientific publications into ElasticSearch by ~8x (from 24 to 3 hours) by optimizing Elasticsearch performance, implementing multi-threading via a Spark Job, and eliminating disk bottlenecks through S3 storage, enabling multiple daily pipeline iterations.",
+        "Automated the scheduling of the data pipeline by writing multiple Airflow jobs in Python.",
+        "Contributed and maintained various apps running on Apache Mesos and Marathon (earlier alternatives to Kubernetes)."
       ]
     },
     {
       "company": "Big Data Partnership (acquired by Teradata)",
-      "position": "Senior Big Data Engineer",
+      "position": "Senior Software Engineer",
       "website": "https://www.bigdatapartnership.com/",
       "startDate": "2013-11",
       "endDate": "2015-07",
       "team": "Training & Consulting",
       "highlights": [
-        "Delivered official Hadoop training at Hadoop Summit with Hortonworks for 2 consecutive years, showcasing technical expertise to industry professionals.",
-        "Led 5+ Hadoop training courses (Admin/Developer) across Europe, achieving 90% positive feedback from participants.",
-        "Led team of 3 engineers in 4-month greenfield project implementing Hadoop cluster and data pipeline for a major client.",
-        "Demonstrated technical excellence with certification scores: Hadoop Administrator (83%), Developer (92%), and Java Developer (93%)."
+        "Delivered the official Hortonworks Hadoop course at Hadoop Summit for 2 consecutive years, while also conducting 5+ private corporate training courses across Europe with 90% positive feedback from participants.",
+        "Led team of 3 engineers in 4-month greenfield consulting project, implementing complete solution for major client while balancing training responsibilities.",
+        "Demonstrated accelerated learning capability by achieving high certification scores within months on various developer and administrator exams."
       ]
     }
   ],
@@ -147,7 +142,6 @@
       "keywords": [
         "Docker",
         "Terraform",
-        "Ansible",
         "Renovate",
         "Bash scripting",
         "Linux"
@@ -166,19 +160,19 @@
   "education": [
     {
       "institution": "University of Catania",
-      "area": "Computer Engineering",
+      "area": "Computer Science (Software Engineering)",
       "studyType": "Master's",
       "startDate": "2006",
       "endDate": "2012",
-      "gpa": "110/110 cum laude (Graduated with honors)"
+      "gpa": "Graduated with honors (110/110 cum laude)"
     },
     {
       "institution": "University of Palermo",
-      "area": "Computer Engineering",
+      "area": "Computer Science (Software Engineering)",
       "studyType": "Bachelor's",
       "startDate": "2002",
       "endDate": "2006",
-      "gpa": "110/110 cum laude (Graduated with honors)"
+      "gpa": "Graduated with honors (110/110 cum laude)"
     }
   ],
   "extras": [
@@ -188,9 +182,7 @@
       "website": "https://cloudnativeengineer.substack.com",
       "startDate": "2023-06",
       "highlights": [
-        "Built substantial audience of 2,000+ subscribers by creating in-depth technical content on cloud-native technologies, maintaining consistent engagement with 4.7K monthly views.",
-        "Established premium content subscription model, successfully converting readers to paid subscribers through specialized material on Kubernetes, Elasticsearch, and DevOps.",
-        "Helped fellow engineers solve common challenges by sharing practical guides and real-world solutions based on hands-on experience with cloud-native technologies."
+        "Built a substantial audience of over 2,300 subscribers by creating in-depth technical content on cloud-native technologies, including Kubernetes, Elasticsearch, and DevOps, while maintaining consistent engagement with 4.7K monthly views."
       ]
     },
     {
@@ -198,9 +190,9 @@
       "organization": "Independent Consulting",
       "startDate": "2023-06",
       "highlights": [
-        "Guided executive leadership on critical technical architecture decisions, resulting in successful Elasticsearch implementations and optimized system designs with measurable performance improvements.",
-        "Accelerated career progression for senior engineers through targeted mentorship on cloud-native technologies, system design, and professional development strategies.",
-        "Consistently prepared senior engineers for successful technical and behavioral interviews at leading technology companies, earning perfect 5-star ratings across multiple reviews."
+        "Advised executive leaders (CTOs and CEOs from various startups) on critical system design decisions.",
+        "Consistently prepared senior software engineers for technical and behavioral interviews at top technology companies.",
+        "Achieved perfect 5-star ratings across more than 10 reviews."
       ]
     },
     {
@@ -209,7 +201,7 @@
       "startDate": "2023-01",
       "endDate": "2023-06",
       "highlights": [
-        "Served as one of two technical reviewers for 'Elastic Stack 8.x Cookbook', ensuring accuracy and quality of advanced Elasticsearch content for publication."
+        "Served as one of two technical reviewers for the book 'Elastic Stack 8.x Cookbook', ensuring accuracy and quality of both code examples and technical content for publication."
       ]
     }
   ],
