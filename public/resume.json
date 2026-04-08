@@ -1,9 +1,8 @@
 {
   "basics": {
     "name": "Giuseppe Santoro",
-    "label": "Senior Software Engineer",
-    "email": "giuseppe.santoro@gmail.com",
-    "summary": "Senior Software Engineer with 12+ years developing high-scale distributed systems. Expert in full software lifecycle from code to production, specializing in cloud-native architectures, Kubernetes, and observability solutions. Proven track record supporting critical product launches at Elastic and PlayStation, with expertise spanning from Kubernetes development to high-performance analytics tools serving millions of users.",
+    "label": "Senior Platform Engineer",
+    "summary": "Senior Platform Engineer with 13+ years developing high-scale distributed systems. Expert in full software lifecycle from code to production, specializing in cloud-native architectures, Kubernetes, and observability solutions. Proven track record supporting critical product launches at Elastic and PlayStation, with expertise spanning from Kubernetes development to high-performance analytics tools serving millions of users.",
     "profiles": [
       {
         "network": "GitHub",
@@ -28,6 +27,19 @@
     ]
   },
   "work": [
+    {
+      "company": "Loveholidays",
+      "position": "Senior Platform Engineer",
+      "website": "https://www.loveholidays.com/",
+      "startDate": "2025-07",
+      "endDate": "",
+      "team": "Platform Engineering Team",
+      "highlights": [
+        "Built from scratch a Slack bot powered by Claude AI to investigate alerts and provide resolution suggestions, integrating custom MCP servers for internal tools, Kubernetes cluster access, and Grafana MCP for Loki, Mimir, and Prometheus data.",
+        "Implemented Terraform drift detection via GitHub workflows with Slack notifications and Atlantis integration, improving infrastructure reliability.",
+        "Provided on-call support and incident response to 100+ developers across the company, ensuring platform stability and rapid issue resolution."
+      ]
+    },
     {
       "company": "Elastic",
       "position": "Senior Software Engineer",
@@ -181,15 +193,6 @@
       "startDate": "2023-06",
       "highlights": [
         "Advised CTOs and CEOs on system design decisions and prepared senior engineers for technical interviews achieving a perfect 5-star ratings across 10+ reviews."
-      ]
-    },
-    {
-      "role": "Technical Reviewer",
-      "organization": "Packt Publishing",
-      "startDate": "2023-01",
-      "endDate": "2023-06",
-      "highlights": [
-        "Technical reviewer for 'Elastic Stack 8.x Cookbook' ensuring code and content accuracy."
       ]
     }
   ],

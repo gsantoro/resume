@@ -1,0 +1,30 @@
+version: "3"
+
+tasks:
+  install:
+    desc: Install dependencies
+    cmds:
+      - npm install
+
+  copy-resume:
+    desc: Copy resume.json into public/
+    cmds:
+      - cp data/resume.json public/
+
+  dev:
+    desc: Start the development server
+    deps: [install, copy-resume]
+    cmds:
+      - npm run dev
+
+  build:
+    desc: Build for production
+    deps: [install, copy-resume]
+    cmds:
+      - npm run build
+
+  preview:
+    desc: Preview the production build
+    deps: [build]
+    cmds:
+      - npm run preview

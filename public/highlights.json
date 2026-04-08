@@ -4,6 +4,36 @@
       "highlights": {
         "0": [
           {
+            "text": "Claude",
+            "type": "technology"
+          },
+          {
+            "text": "MCP",
+            "type": "technology"
+          }
+        ],
+        "1": [
+          {
+            "text": "Terraform",
+            "type": "technology"
+          },
+          {
+            "text": "Atlantis",
+            "type": "technology"
+          }
+        ],
+        "2": [
+          {
+            "text": "platform stability",
+            "type": "impact"
+          }
+        ]
+      }
+    },
+    "1": {
+      "highlights": {
+        "0": [
+          {
             "text": "Playwright",
             "type": "technology"
           },
@@ -30,7 +60,7 @@
         ]
       }
     },
-    "1": {
+    "2": {
       "highlights": {
         "0": [
           {
@@ -58,7 +88,7 @@
         ]
       }
     },
-    "2": {
+    "3": {
       "highlights": {
         "0": [
           {
@@ -94,7 +124,7 @@
         ]
       }
     },
-    "3": {
+    "4": {
       "highlights": {
         "0": [
           {
@@ -132,7 +162,7 @@
         ]
       }
     },
-    "4": {
+    "5": {
       "highlights": {
         "0": [
           {
@@ -160,7 +190,7 @@
         ]
       }
     },
-    "5": {
+    "6": {
       "highlights": {
         "0": [
           {
