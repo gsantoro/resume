@@ -15,7 +15,7 @@ export default function PrintButton() {
   };
 
   const handleDownloadPDF = () => {
-    window.open(`${import.meta.env.BASE_URL}giuseppe-santoro-resume.pdf`, '_blank');
+    window.open(`${import.meta.env.BASE_URL}giuseppe-santoro.pdf`, '_blank');
     setShowOptions(false);
   };
 

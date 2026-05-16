@@ -6,11 +6,6 @@ tasks:
     cmds:
       - npm install
 
-  copy-resume:
-    desc: Copy resume.json into public/
-    cmds:
-      - cp data/resume.json public/
-
   dev:
     desc: Start the development server
     deps: [install, copy-resume]
@@ -28,3 +23,34 @@ tasks:
     deps: [build]
     cmds:
       - npm run preview
+
+  import-resume:
+    desc: Select a resume.json from data/archive/<company>/ via fzf and copy it to public/resume.json
+    cmds:
+      - |
+        src=$(find data/archive -name "resume.json" | fzf --prompt="Select resume.json: ")
+        if [ -z "$src" ]; then
+          echo "No file selected. Aborting."
+          exit 1
+        fi
+        cp "$src" public/resume.json
+        echo "Copied $src -> public/resume.json"
+
+  export-resume:
+    desc: Copy public/giuseppe-santoro.pdf to a selected data/archive/<company>/ folder (create if needed)
+    cmds:
+      - |
+        if [ ! -f public/giuseppe-santoro.pdf ]; then
+          echo "public/giuseppe-santoro.pdf not found. Generate it first."
+          exit 1
+        fi
+        dest=$(find data/archive -mindepth 1 -maxdepth 1 -type d | fzf --prompt="Select destination folder (Ctrl-C to create new): ")
+        if [ -z "$dest" ]; then
+          printf "Enter new folder name under data/archive/: "
+          read name
+          dest="data/archive/$name"
+          mkdir -p "$dest"
+          echo "Created $dest"
+        fi
+        cp public/giuseppe-santoro.pdf "$dest/giuseppe-santoro.pdf"
+        echo "Copied -> $dest/giuseppe-santoro.pdf"
