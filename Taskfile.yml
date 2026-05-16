@@ -8,13 +8,13 @@ tasks:
 
   dev:
     desc: Start the development server
-    deps: [install, copy-resume]
+    deps: [install]
     cmds:
       - npm run dev
 
   build:
     desc: Build for production
-    deps: [install, copy-resume]
+    deps: [install]
     cmds:
       - npm run build
 
@@ -44,13 +44,35 @@ tasks:
           echo "public/giuseppe-santoro.pdf not found. Generate it first."
           exit 1
         fi
-        dest=$(find data/archive -mindepth 1 -maxdepth 1 -type d | fzf --prompt="Select destination folder (Ctrl-C to create new): ")
-        if [ -z "$dest" ]; then
+        new_opt="[+ Create new folder]"
+        dest=$( (echo "$new_opt"; find data/archive -mindepth 1 -maxdepth 1 -type d) | fzf --prompt="Select destination (Ctrl-C to abort): ")
+        fzf_rc=$?
+        if [ $fzf_rc -ne 0 ] || [ -z "$dest" ]; then
+          echo "Aborted."
+          exit 1
+        fi
+        if [ "$dest" = "$new_opt" ]; then
           printf "Enter new folder name under data/archive/: "
           read name
+          if [ -z "$name" ]; then
+            echo "No name given. Aborting."
+            exit 1
+          fi
           dest="data/archive/$name"
           mkdir -p "$dest"
           echo "Created $dest"
         fi
+
         cp public/giuseppe-santoro.pdf "$dest/giuseppe-santoro.pdf"
         echo "Copied -> $dest/giuseppe-santoro.pdf"
+
+        if [ -f public/giuseppe-santoro-bw.pdf ]; then
+          cp public/giuseppe-santoro-bw.pdf "$dest/giuseppe-santoro-bw.pdf"
+          echo "Copied -> $dest/giuseppe-santoro-bw.pdf"
+        else
+          echo "public/giuseppe-santoro-bw.pdf not found. Skipping."
+        fi
+
+        cp public/resume.json "$dest/resume.json"
+        echo "Copied -> $dest/resume.json"
+        

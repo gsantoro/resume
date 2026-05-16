@@ -4,28 +4,34 @@
       "highlights": {
         "0": [
           {
-            "text": "Claude",
-            "type": "technology"
-          },
-          {
-            "text": "MCP",
+            "text": "GKE",
             "type": "technology"
           }
         ],
         "1": [
           {
-            "text": "Terraform",
+            "text": "Claude Agent SDK",
             "type": "technology"
           },
           {
-            "text": "Atlantis",
+            "text": "AI Slack bot",
             "type": "technology"
+          },
+          {
+            "text": "10-15x (20-30min → 1-2min)",
+            "type": "impact"
           }
         ],
         "2": [
           {
-            "text": "platform stability",
-            "type": "impact"
+            "text": "Terraform",
+            "type": "technology"
+          }
+        ],
+        "4": [
+          {
+            "text": "Claude Skills",
+            "type": "technology"
           }
         ]
       }
@@ -38,21 +44,11 @@
             "type": "technology"
           },
           {
-            "text": "reducing production outages across 8+ engineering teams",
-            "type": "impact"
-          }
-        ],
-        "1": [
-          {
-            "text": "Elastic Synthetic monitoring",
-            "type": "technology"
-          },
-          {
             "text": "Incident Commander",
             "type": "impact"
           }
         ],
-        "2": [
+        "1": [
           {
             "text": "Renovate",
             "type": "technology"
@@ -64,13 +60,17 @@
       "highlights": {
         "0": [
           {
-            "text": "Go Delve Debugger and Tilt",
+            "text": "Elastic Beats",
+            "type": "technology"
+          },
+          {
+            "text": "Kubernetes",
             "type": "technology"
           }
         ],
         "1": [
           {
-            "text": "custom Elastic integration for Istio",
+            "text": "Istio",
             "type": "technology"
           }
         ],
@@ -92,17 +92,25 @@
       "highlights": {
         "0": [
           {
-            "text": "AWS S3, Athena, and Glue",
+            "text": "Athena",
             "type": "technology"
           },
           {
-            "text": "query performance from minutes to second",
+            "text": "Golang",
+            "type": "technology"
+          },
+          {
+            "text": "query performance from minutes to seconds",
             "type": "impact"
           }
         ],
         "1": [
           {
-            "text": "AWS Lambda and Python",
+            "text": "AWS Lambda",
+            "type": "technology"
+          },
+          {
+            "text": "Python",
             "type": "technology"
           }
         ],

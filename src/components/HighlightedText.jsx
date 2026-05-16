@@ -37,7 +37,8 @@ export default function HighlightedText({ text, highlights = [] }) {
     result.push(
       <span
         key={`highlight-${index}`}
-        className={`px-1 py-0.5 rounded text-sm font-medium print:bg-transparent print:text-gray-700 ${highlightStyles[highlight.type] || ''}`}
+        data-highlight={highlight.type}
+        className={`px-1 py-0.5 rounded font-medium ${highlightStyles[highlight.type] || ''}`}
       >
         {highlight.text}
       </span>

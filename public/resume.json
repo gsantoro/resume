@@ -2,7 +2,7 @@
   "basics": {
     "name": "Giuseppe Santoro",
     "label": "Senior Platform Engineer",
-    "summary": "Senior Platform Engineer with 13+ years developing high-scale distributed systems. Expert in full software lifecycle from code to production, specializing in cloud-native architectures, Kubernetes, and observability solutions. Proven track record supporting critical product launches at Elastic and PlayStation, with expertise spanning from Kubernetes development to high-performance analytics tools serving millions of users.",
+    "summary": "Senior Platform Engineer with 13+ years in cloud infrastructure and distributed systems. Expert in Kubernetes, Terraform/GitOps, Observability (Prometheus, Loki, Mimir, Tempo, Grafana), and multi-cloud (AWS/GCP). Track record supporting global product launches at Elastic and PlayStation; currently driving AI-augmented platform engineering at Loveholidays to reduce operational toil and MTTR.",
     "profiles": [
       {
         "network": "GitHub",
@@ -15,14 +15,14 @@
         "url": "https://linkedin.com/in/santorogiuseppe"
       },
       {
-        "network": "LeetCode",
-        "username": "gsantoro (Leetcode)",
-        "url": "https://leetcode.com/gsantoro"
-      },
-      {
         "network": "Substack",
         "username": "Cloud Native Engineer (Newsletter)",
         "url": "https://cloudnativeengineer.substack.com"
+      },
+      {
+        "network": "LeetCode",
+        "username": "gsantoro (Leetcode)",
+        "url": "https://leetcode.com/gsantoro"
       }
     ]
   },
@@ -33,11 +33,13 @@
       "website": "https://www.loveholidays.com/",
       "startDate": "2025-07",
       "endDate": "",
-      "team": "Platform Engineering Team",
+      "team": "Cloud Infrastructure Team",
       "highlights": [
-        "Built from scratch a Slack bot powered by Claude AI to investigate alerts and provide resolution suggestions, integrating custom MCP servers for internal tools, Kubernetes cluster access, and Grafana MCP for Loki, Mimir, and Prometheus data.",
-        "Implemented Terraform drift detection via GitHub workflows with Slack notifications and Atlantis integration, improving infrastructure reliability.",
-        "Provided on-call support and incident response to 100+ developers across the company, ensuring platform stability and rapid issue resolution."
+        "Resolved 300+ investigations across 60+ support days (on-call + working-hours) for 70+ engineers on £5m GKE infrastructure (12k+ peak containers, 349 nodes, 13+ TiB persistent storage) using Terraform, ArgoCD, and observability tools.",
+        "Built autonomous Claude AI Slack bot reducing alert investigation time 10-15x (20-30min → 1-2min) using Claude Agent SDK, custom MCP servers, and Python on Kubernetes—triggered via emoji reaction for zero-friction on-call triage.",
+        "Delivered zero-effort Terraform drift detection across 2 monorepos managing 486 applications via Atlantis post-workflow hooks + GitHub Actions, surfacing infrastructure divergence daily with Slack alerts.",
+        "Built escalations data product joining incident.io API + historical PagerDuty data in BigQuery with dbt transforms and Looker dashboards, exposing escalation patterns for root cause analysis.",
+        "Automated platform team toil via 10+ Claude Skills (daily standups, GitHub PR automation, ISO-27001 compliance evidence, infrastructure research), reaching 84.85% AI adoption vs. 61% company baseline."
       ]
     },
     {
@@ -48,9 +50,8 @@
       "endDate": "2025-03",
       "team": "Platform org - Developer Experience Team",
       "highlights": [
-        "Developed synthetic monitoring framework using Playwright for Elastic Cloud Serverless launch, reducing production outages across 8+ engineering teams.",
-        "Served as Incident Commander resolving internal/external incidents while improving Elastic Synthetic monitoring product experience.",
-        "Implemented company-wide dependency management through Renovate, ensuring consistent software dependencies across codebases."
+        "Built Playwright-based synthetic monitoring framework helping 8+ teams reduce production issues during Elastic Cloud Serverless launch; served as Incident Commander.",
+        "Rolled out Renovate company-wide to eliminate dependency drift across codebases."
       ]
     },
     {
@@ -61,10 +62,10 @@
       "endDate": "2024-05",
       "team": "Observability org - Cloud Native Team",
       "highlights": [
-        "Built remote debugging solution for Elastic Beats on Kubernetes using Go Delve Debugger and Tilt.",
-        "Developed custom Elastic integration for Istio logs and metrics, enabling service mesh performance monitoring.",
-        "Created specialized dashboards for Elastic Kubernetes integration improving cluster visibility.",
-        "Resolved complex customer escalations for Kubernetes deployments while contributing bug fixes to Elastic codebases."
+        "Enabled cluster-local debugging of Elastic Beats on Kubernetes via Go Delve + Tilt integration, eliminating slow local-only debug cycles for cloud-native development.",
+        "Shipped Elastic integration for Istio service mesh (logs + metrics) enabling out-of-the-box performance monitoring.",
+        "Built specialized dashboards improving Kubernetes cluster visibility within Elastic integration.",
+        "Resolved complex customer Kubernetes deployment escalations while contributing upstream bug fixes to Elastic codebases."
       ]
     },
     {
@@ -75,11 +76,11 @@
       "endDate": "2021-08",
       "team": "Game Analytics Team",
       "highlights": [
-        "Built high-performance Golang analytics tool transforming query performance from minutes to seconds using AWS S3, Athena, and Glue.",
-        "Developed real-time event processor using AWS Lambda and Python for enhanced data correlation and insights.",
-        "Delivered end-to-end support for 10+ PlayStation game launches handling application development to AWS infrastructure.",
-        "Created Python video transcoding tool accelerating media content discovery for Studio Engineers.",
-        "Maintained reliable operations of 10+ microservices, 20+ EMR jobs, and 5+ Lambda functions in small team environment."
+        "Cut analytics query latency from minutes to seconds via custom Golang tool over AWS S3/Athena/Glue, unblocking studio analysts.",
+        "Built real-time event processor on AWS Lambda + Python enabling cross-event correlation batch pipelines couldn't deliver.",
+        "Delivered end-to-end support for 10+ PlayStation game launches across application development and AWS infrastructure.",
+        "Accelerated Studio Engineers' media content discovery via Python video transcoding tool.",
+        "Operated 10+ microservices, 20+ EMR jobs, 5+ Lambda functions reliably in small-team environment."
       ]
     },
     {
@@ -90,9 +91,9 @@
       "endDate": "2018-08",
       "team": "Platform Team",
       "highlights": [
-        "Optimized pipeline runtime using Google Dataflow to ingest 120M documents into Elasticsearch.",
-        "Migrated data pipeline from on-premise Hadoop to Google BigQuery improving query performance and cost efficiency.",
-        "Automated pipeline scheduling through Airflow on Kubernetes improving operational visibility."
+        "Reduced ingestion runtime for 120M-document Elasticsearch pipeline via Google Dataflow, replacing slower batch approach.",
+        "Migrated data pipeline from on-premise Hadoop to Google BigQuery, improving query performance and reducing operational cost.",
+        "Automated pipeline scheduling via Airflow on Kubernetes replacing brittle cron-based orchestration—gained visibility into pipeline state and failures."
       ]
     },
     {
@@ -103,8 +104,8 @@
       "endDate": "2017-02",
       "team": "Platform Team",
       "highlights": [
-        "Optimized Elasticsearch ingestion of 40M scientific publications by 8x (24 to 3 hours) using Spark multi-threading and S3 storage.",
-        "Automated pipeline scheduling using Python Airflow jobs.",
+        "Cut Elasticsearch ingestion 8x (24h → 3h) on 40M scientific publications via Spark multi-threading + S3 storage.",
+        "Automated pipeline scheduling via Python Airflow jobs replacing manual orchestration.",
         "Developed and maintained applications on Apache Mesos and Marathon (Kubernetes predecessors)."
       ]
     },
@@ -116,37 +117,64 @@
       "endDate": "2015-07",
       "team": "Training & Consulting",
       "highlights": [
-        "Delivered official Hortonworks Hadoop course at Hadoop Summit for 2 years plus 5+ private corporate courses with 90% positive feedback.",
-        "Led 3-engineer team in 4-month greenfield consulting project implementing complete client solution.",
-        "Achieved high certification scores on developer and administrator exams within months of self-study."
+        "Delivered official Hortonworks Hadoop course at Hadoop Summit for 2 years + 5 private corporate engagements with 90% positive feedback.",
+        "Led 3-engineer team in 4-month greenfield consulting project delivering complete client solution end-to-end.",
+        "Achieved high certification scores on Hadoop developer and administrator exams within months of self-study."
       ]
     }
   ],
   "skills": [
     {
+      "name": "Cloud & Kubernetes",
+      "keywords": [
+        "GCP (GKE, BigQuery)",
+        "Kubernetes (4+ years, multi-region GKE)",
+        "AWS (Lambda, S3, ECS, EMR, Glue, Athena)"
+      ]
+    },
+    {
+      "name": "AI / LLM Engineering",
+      "keywords": [
+        "Claude Agent SDK",
+        "MCP development",
+        "Claude Skills",
+        "Claude Code / Codex"
+      ]
+    },
+    {
+      "name": "Observability",
+      "keywords": [
+        "Prometheus",
+        "Loki",
+        "Mimir",
+        "Tempo",
+        "Grafana"
+      ]
+    },
+    {
+      "name": "Infrastructure-as-Code & GitOps",
+      "keywords": [
+        "Terraform",
+        "Atlantis",
+        "ArgoCD",
+        "GitHub Actions",
+        "Renovate"
+      ]
+    },
+    {
+      "name": "Data & Analytics",
+      "keywords": [
+        "BigQuery",
+        "dbt",
+        "Looker",
+        "Streamlit"
+      ]
+    },
+    {
       "name": "Programming",
       "keywords": [
-        "Golang (6 years)",
         "Python (10 years)",
-        "Bash"
-      ]
-    },
-    {
-      "name": "Cloud & Infrastructure",
-      "keywords": [
-        "Kubernetes (3+ years)",
-        "AWS (Lambda, Kinesis, EMR, S3, ECS, Glue, Athena)",
-        "GCP (Dataflow, BigQuery)"
-      ]
-    },
-    {
-      "name": "Elastic Stack",
-      "keywords": [
-        "Elastic Cloud on Kubernetes (ECK)",
-        "Elastic Agent",
-        "Elastic Beats",
-        "Kibana",
-        "Elastic Integration Development"
+        "Golang (6 years)"
       ]
     }
   ],
@@ -184,26 +212,16 @@
       "website": "https://cloudnativeengineer.substack.com",
       "startDate": "2023-06",
       "highlights": [
-        "Built 2,300+ subscriber audience creating cloud-native technical content with 4.7K monthly views."
+        "Built 2,800+ subscriber audience with 4.7K monthly views creating cloud-native technical content."
       ]
     },
     {
       "role": "Technical Mentor",
-      "organization": "Independent Consulting",
+      "organization": "MentorCruise (paid mentoring platform)",
       "startDate": "2023-06",
       "highlights": [
-        "Advised CTOs and CEOs on system design decisions and prepared senior engineers for technical interviews achieving a perfect 5-star ratings across 10+ reviews."
+        "Reached Top Mentor status on MentorCruise (5-star ratings, 10+ reviews, 30+ mentees) coaching junior/senior engineers for interviews and startup CTOs/CEOs on system design."
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Italian",
-      "fluency": "Native"
-    },
-    {
-      "language": "English",
-      "fluency": "Bilingual proficiency"
     }
   ]
 }

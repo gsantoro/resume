@@ -57,6 +57,22 @@
           -webkit-print-color-adjust: exact !important;
           print-color-adjust: exact !important;
         }
+
+        html.print-bw [data-highlight] {
+          background-color: transparent !important;
+          color: #000 !important;
+          font-weight: 700 !important;
+          padding: 0 !important;
+        }
+
+        html.print-bw body,
+        html.print-bw body * {
+          color: #000 !important;
+        }
+
+        html.print-bw .blue-icon {
+          filter: brightness(0) !important;
+        }
       }
     </style>
   </head>

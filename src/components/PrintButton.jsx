@@ -6,16 +6,38 @@ export default function PrintButton() {
   
   const handlePrint = () => {
     alert('For best results, please set your print zoom to 63% before printing.');
-    
+
     setTimeout(() => {
       window.print();
     }, 100);
-    
+
+    setShowOptions(false);
+  };
+
+  const handlePrintBW = () => {
+    alert('For best results, please set your print zoom to 63% before printing.');
+
+    document.documentElement.classList.add('print-bw');
+    const cleanup = () => {
+      document.documentElement.classList.remove('print-bw');
+      window.removeEventListener('afterprint', cleanup);
+    };
+    window.addEventListener('afterprint', cleanup);
+
+    setTimeout(() => {
+      window.print();
+    }, 100);
+
     setShowOptions(false);
   };
 
   const handleDownloadPDF = () => {
     window.open(`${import.meta.env.BASE_URL}giuseppe-santoro.pdf`, '_blank');
+    setShowOptions(false);
+  };
+
+  const handleDownloadPDFBW = () => {
+    window.open(`${import.meta.env.BASE_URL}giuseppe-santoro-bw.pdf`, '_blank');
     setShowOptions(false);
   };
 
@@ -55,19 +77,35 @@ export default function PrintButton() {
         <div className="absolute right-0 mt-2 w-48 bg-white dark:bg-gray-800 rounded-md shadow-lg z-10 border border-gray-200 dark:border-gray-700">
           <ul>
             <li>
-              <button 
+              <button
                 onClick={handlePrint}
                 className="w-full text-left px-4 py-2 text-base text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
               >
-                Print from Browser
+                Print (colors)
               </button>
             </li>
             <li>
-              <button 
+              <button
+                onClick={handlePrintBW}
+                className="w-full text-left px-4 py-2 text-base text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+              >
+                Print (b/w)
+              </button>
+            </li>
+            <li>
+              <button
                 onClick={handleDownloadPDF}
                 className="w-full text-left px-4 py-2 text-base text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
               >
-                Download PDF File
+                Download (colors)
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={handleDownloadPDFBW}
+                className="w-full text-left px-4 py-2 text-base text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+              >
+                Download (b/w)
               </button>
             </li>
           </ul>
